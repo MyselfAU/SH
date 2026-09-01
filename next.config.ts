@@ -21,7 +21,7 @@ const nextConfig: NextConfig = {
     ],
   },
   output: 'export',          // <-- CHANGE 'standalone' TO 'export'
-  basePath: '/Streamey-Hub', // <-- ADD THIS LINE MATCHING YOUR REPO NAME
+  basePath: '/SH', // <-- ADD THIS LINE MATCHING YOUR REPO NAME
   transpilePackages: ['motion'],
   webpack: (config, { dev }) => {
     
